@@ -1,0 +1,32 @@
+11-03 18:10 INFO Reading upregulated genes from: /home/anoukv/LINCS/query_db/query150/P1vsC3//up.grp
+11-03 18:10 INFO Reading downregulated genes from: /home/anoukv/LINCS/query_db/query150/P1vsC3//down.grp
+11-03 18:10 INFO Total up genes: 150
+11-03 18:10 INFO Total down genes: 150
+11-03 18:10 INFO Total included genes: 5885
+11-03 18:10 INFO Searching cellines:
+11-03 18:10 INFO Phase 1: CD34 - HL60 - PC3 - U937 - MCF7 - A375 - HEK293T - A549 - ASC - HA1E - HCC515 - HEKTE - HEPG2 - HT29 - NCIH716 - NPC - SHSY5Y - SKL - SW480 - VCAP - BT20 - FIBRNPC - HS578T - MCF10A - MCH58 - MDAMB231 - NEU - NKDBA - NOMO1 - PHH - SKBR3 - SKB - SKM1 - THP1 - A673 - AGS - CL34 - CORL23 - COV644 - DV90 - EFO27 - H1299 - HCC15 - HCT116 - HEC108 - HT115 - JHUEM2 - LOVO - MDST8 - NCIH1694 - NCIH1836 - NCIH2073 - NCIH508 - NCIH596 - OV7 - PL21 - RKO - RMGI - RMUGS - SKLU1 - SKMEL1 - SKMEL28 - SNGM - SNU1040 - SNUC4 - SNUC5 - SW620 - SW948 - T3M10 - TYKNU - WSUDLCL2 - HUH7 - HS27A - JURKAT - U266 - U2OS
+11-03 18:10 INFO Phase 2: A375 - A549 - BT20 - HA1E - HCC515 - HEPG2 - HS578T - HT29 - MCF10A - MCF7 - MDAMB231 - PC3 - SKBR3 - HME1 - LNCAP - ASC.C - ASC - CD34 - HUES3 - HUVEC - JURKAT - MNEU.E - NEU - NPC.CAS9 - NPC.TAK - NPC - SKL.C - SKL - HELA - YAPC - A375.311 - A549.311 - HA1E.101 - HA1E.311 - HELA.311 - HT29.311 - MCF7.101 - MCF7.311 - PC3.101 - PC3.311 - YAPC.311
+11-03 18:10 INFO Searching treatments: 
+11-03 18:10 INFO Phase 1: ctl_vehicle - trt_cp - ctl_untrt - trt_sh.cgs - ctl_vehicle.cns - ctl_vector.cns - ctl_untrt.cns - trt_sh.css - trt_lig - ctl_vector - trt_sh - trt_oe - trt_oe.mut
+11-03 18:10 INFO Phase 2: ctl_vehicle - trt_cp - trt_xpr - ctl_untrt - ctl_vector
+11-03 18:10 INFO Reading config file: /home/anoukv/LINCS/scripts_martijn/login.cfg
+11-03 18:10 INFO Mongo connection succesfull
+11-03 18:10 INFO Starting search in LINCS_phase1 database
+11-03 18:10 INFO Overlap between included genes and LINCS genes: 5885
+11-03 18:10 INFO Validating input genes. Using only BING genes
+11-03 18:10 INFO Retaining: 150 up-regulated genes out of 150
+11-03 18:10 INFO Retaining: 150 down-regulated genes out of 150
+11-03 18:10 INFO Total results in database LINCS_phase1: 473647
+11-03 18:10 INFO Searching database using 10 parallel threads
+11-03 18:59 INFO Done with search in LINCS_phase1 database. 199148 results
+11-03 18:59 INFO Starting search in LINCS_phase2 database
+11-03 18:59 INFO Mongo connection succesfull
+11-03 18:59 INFO Overlap between included genes and LINCS genes: 5885
+11-03 18:59 INFO Validating input genes. Using only BING genes
+11-03 18:59 INFO Retaining: 150 up-regulated genes out of 150
+11-03 18:59 INFO Retaining: 150 down-regulated genes out of 150
+11-03 18:59 INFO Total results in database LINCS_phase2: 118050
+11-03 18:59 INFO Searching database using 10 parallel threads
+11-03 19:10 INFO Done with search in LINCS_phase2 database. 50300 results
+11-03 19:12 INFO Pickling: 249448 results
+11-03 19:12 INFO Storing results in /home/anoukv/LINCS/query_db/query150/P1vsC3//results.pickle
